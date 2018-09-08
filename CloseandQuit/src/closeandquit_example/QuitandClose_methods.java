@@ -20,6 +20,7 @@ public class QuitandClose_methods {
 		Thread.sleep(2000);
 		driver.close();
 		driver.quit();
+		driver.get("https://mansi.com");
 				
 	}
 	
